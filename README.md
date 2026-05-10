@@ -1,14 +1,14 @@
-# Python F1 Performance Analysis — Motorsport EDA & Web Scraping (2015–2024)
+# Python F1 Performance Analysis — Motorsport EDA & Web Scraping (2015 - 2024)
 
 ---
 
 ## Executive Summary
 
-This project scrapes, cleans, and analyses 10 seasons of Formula 1 race data (2015–2024) using the Jolpica F1 public API — a real-world data source with no pre-built dataset to rely on. The analysis covers 4,219 race entries across 10 seasons, uncovering patterns in driver dominance, constructor performance, and the statistical relationship between qualifying position and race outcome.
+This project scrapes, cleans, and analyses 10 seasons of Formula 1 race data (2015 - 2024) using the Jolpica F1 public API - a real-world data source with no pre-built dataset to rely on. The analysis covers 4,219 race entries across 10 seasons, uncovering patterns in driver dominance, constructor performance, and the statistical relationship between qualifying position and race outcome.
 
-Key findings include Mercedes winning 100 races across the decade, Lewis Hamilton leading all drivers with 72 wins, and a strong correlation (r = 0.62) between grid position and finish position — with pole sitters converting to race wins 52.9% of the time.
+Key findings include Mercedes winning 100 races across the decade, Lewis Hamilton leading all drivers with 72 wins, and a strong correlation (r = 0.62) between grid position and finish position - with pole sitters converting to race wins 52.9% of the time.
 
-**Business impact:** Demonstrates a full end-to-end data analytics workflow — API scraping, data cleaning, feature engineering, EDA, and storytelling — applied to a globally recognised sport with millions of data points and real competitive stakes.
+**Business impact:** Demonstrates a full end-to-end data analytics workflow - API scraping, data cleaning, feature engineering, EDA, and storytelling — applied to a globally recognised sport with millions of data points and real competitive stakes.
 
 ---
 
@@ -21,13 +21,13 @@ Formula 1 generates enormous volumes of race data each season, but raw results a
 - How have team power dynamics shifted across seasons?
 - Where are the performance gaps between top and mid-field teams?
 
-This project simulates the work of a sports data analyst tasked with building a performance intelligence report across a decade of F1 competition — using only publicly available data, scraped and processed entirely in Python.
+This project simulates the work of a sports data analyst tasked with building a performance intelligence report across a decade of F1 competition - using only publicly available data, scraped and processed entirely in Python.
 
 ---
 
 ## Methodology
 
-### 1. Data Collection — Web Scraping via API
+### 1. Data Collection - Web Scraping via API
 - Scraped live data from the **Jolpica F1 API** (the maintained successor to the now-defunct Ergast API)
 - Pulled three separate endpoints: driver standings, constructor standings, and race results
 - Handled **API pagination** automatically to retrieve all records per season
@@ -56,11 +56,11 @@ This project simulates the work of a sports data analyst tasked with building a 
 ## Skills & Tools Used
 
 **Python Libraries**
-- `requests` — API calls and pagination handling
-- `pandas` — data wrangling, groupby aggregations, feature engineering
-- `numpy` — numerical operations
-- `matplotlib` — chart construction and layout
-- `seaborn` — styled statistical visualisations
+- `requests` - API calls and pagination handling
+- `pandas` - data wrangling, groupby aggregations, feature engineering
+- `numpy` - numerical operations
+- `matplotlib` - chart construction and layout
+- `seaborn` - styled statistical visualisations
 
 **Techniques**
 - REST API scraping with pagination
@@ -113,28 +113,28 @@ f1-performance-analysis/
 
 ## Visualisations
 
-### Chart 1 — Driver championship points trend (2015–2024)
+### Chart 1 - Driver championship points trend (2015–2024)
 > Tracks season-end points for the top 5 drivers, showing Hamilton's dominance and Verstappen's rise.
 
 ![Driver Points Trend](charts/chart1_driver_points_trend.png)
 
 ---
 
-### Chart 2 — Constructor race wins per season
+### Chart 2 - Constructor race wins per season
 > Shows how team dominance shifted — Mercedes controlled 2015–2020, Red Bull took over from 2022.
 
 ![Constructor Wins](charts/chart2_constructor_wins.png)
 
 ---
 
-### Chart 3 — Win rate vs podium rate by driver
+### Chart 3 - Win rate vs podium rate by driver
 > Compares conversion efficiency across the top 15 drivers with 30+ race starts.
 
 ![Driver Win and Podium Rate](charts/chart3_driver_win_podium_rate.png)
 
 ---
 
-### Chart 4 — Grid position vs finish position
+### Chart 4 - Grid position vs finish position
 > Scatter plot with regression line and average finish per grid slot, quantifying the qualifying advantage.
 
 ![Grid vs Finish](charts/chart4_grid_vs_finish.png)
