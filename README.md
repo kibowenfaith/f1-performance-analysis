@@ -1,4 +1,4 @@
-# Python F1 Performance Analysis — Motorsport EDA & Web Scraping (2015 - 2024)
+# Python F1 Performance Analysis - Motorsport EDA & Web Scraping (2015 - 2024)
 
 ---
 
@@ -8,7 +8,7 @@ This project scrapes, cleans, and analyses 10 seasons of Formula 1 race data (20
 
 Key findings include Mercedes winning 100 races across the decade, Lewis Hamilton leading all drivers with 72 wins, and a strong correlation (r = 0.62) between grid position and finish position - with pole sitters converting to race wins 52.9% of the time.
 
-**Business impact:** Demonstrates a full end-to-end data analytics workflow - API scraping, data cleaning, feature engineering, EDA, and storytelling — applied to a globally recognised sport with millions of data points and real competitive stakes.
+**Business impact:** Demonstrates a full end-to-end data analytics workflow - API scraping, data cleaning, feature engineering, EDA, and storytelling - applied to a globally recognised sport with millions of data points and real competitive stakes.
 
 ---
 
@@ -32,7 +32,7 @@ This project simulates the work of a sports data analyst tasked with building a 
 - Pulled three separate endpoints: driver standings, constructor standings, and race results
 - Handled **API pagination** automatically to retrieve all records per season
 - Implemented polite rate limiting (`time.sleep`) to avoid overloading the server
-- Collected data across all 10 seasons (2015–2024) in a single automated loop
+- Collected data across all 10 seasons (2015 - 2024) in a single automated loop
 
 ### 2. Data Cleaning & Feature Engineering
 - Converted `finish_position` from mixed-type (numeric + DNS/DNF strings) to numeric using `pd.to_numeric(errors='coerce')`
@@ -104,8 +104,8 @@ f1-performance-analysis/
 | Question | Finding |
 |---|---|
 | Who dominated the 2015–2024 era? | Lewis Hamilton (72 wins), Max Verstappen rising sharply from 2021 |
-| Which constructor won most? | Mercedes (100 wins), dominant 2015–2020, challenged from 2021 |
-| Does qualifying predict the race? | Yes — grid/finish correlation of r = 0.62 |
+| Which constructor won most? | Mercedes (100 wins), dominant 2015 - 2020, challenged from 2021 |
+| Does qualifying predict the race? | Yes - grid/finish correlation of r = 0.62 |
 | How often does pole win? | 52.9% of the time across 10 seasons |
 | Who has the best win rate? | Hamilton and Verstappen lead all drivers with 30+ starts |
 
@@ -121,7 +121,7 @@ f1-performance-analysis/
 ---
 
 ### Chart 2 - Constructor race wins per season
-> Shows how team dominance shifted — Mercedes controlled 2015–2020, Red Bull took over from 2022.
+> Shows how team dominance shifted - Mercedes controlled 2015 - 2020, Red Bull took over from 2022.
 
 ![Constructor Wins](charts/chart2_constructor_wins.png)
 
@@ -145,11 +145,11 @@ f1-performance-analysis/
 
 ### Key Findings
 
-- **Mercedes dominated the hybrid era** with 100 race wins across 2015–2024, but Red Bull's 2022 regulation changes exposed a strategic vulnerability in Mercedes' development pipeline
-- **Lewis Hamilton is the standout performer** of the decade — 72 wins, consistent podium rate above 60%, and top-3 championship finishes in 8 of 10 seasons
-- **Max Verstappen's trajectory is historically steep** — his win rate from 2021 onwards rivals Hamilton's peak years
-- **Qualifying is highly predictive** — a correlation of r = 0.62 between grid and finish position is strong for a sport with 20 competitors, variable weather, and strategy uncertainty
-- **Pole position converts to a win 52.9% of the time** — a clear strategic incentive to prioritise one-lap pace in car development
+- **Mercedes dominated the hybrid era** with 100 race wins across 2015 - 2024, but Red Bull's 2022 regulation changes exposed a strategic vulnerability in Mercedes' development pipeline
+- **Lewis Hamilton is the standout performer** of the decade - 72 wins, consistent podium rate above 60%, and top-3 championship finishes in 8 of 10 seasons
+- **Max Verstappen's trajectory is historically steep** - his win rate from 2021 onwards rivals Hamilton's peak years
+- **Qualifying is highly predictive** - a correlation of r = 0.62 between grid and finish position is strong for a sport with 20 competitors, variable weather, and strategy uncertainty
+- **Pole position converts to a win 52.9% of the time** - a clear strategic incentive to prioritise one-lap pace in car development
 
 ### Business Recommendations
 
@@ -171,8 +171,8 @@ f1-performance-analysis/
 
 ## Data Source
 
-- **API:** [Jolpica F1 API](https://api.jolpi.ca/) — the maintained successor to the Ergast Motor Racing API
-- **Coverage:** 2015–2024 F1 World Championship seasons
+- **API:** [Jolpica F1 API](https://api.jolpi.ca/) - the maintained successor to the Ergast Motor Racing API
+- **Coverage:** 2015 - 2024 F1 World Championship seasons
 - **Endpoints used:** `/driverStandings`, `/constructorStandings`, `/results`
 - **No API key required**
 
