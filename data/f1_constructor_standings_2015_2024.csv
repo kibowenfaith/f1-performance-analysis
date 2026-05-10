@@ -1,0 +1,102 @@
+season,round,position,points,wins,constructor_id,constructor_name,nationality
+2015,19,1,703.0,16,mercedes,Mercedes,German
+2015,19,2,428.0,3,ferrari,Ferrari,Italian
+2015,19,3,257.0,0,williams,Williams,British
+2015,19,4,187.0,0,red_bull,Red Bull,Austrian
+2015,19,5,136.0,0,force_india,Force India,Indian
+2015,19,6,78.0,0,lotus_f1,Lotus F1,British
+2015,19,7,67.0,0,toro_rosso,Toro Rosso,Italian
+2015,19,8,36.0,0,sauber,Sauber,Swiss
+2015,19,9,27.0,0,mclaren,McLaren,British
+2015,19,10,0.0,0,manor,Manor Marussia,British
+2016,21,1,765.0,19,mercedes,Mercedes,German
+2016,21,2,468.0,2,red_bull,Red Bull,Austrian
+2016,21,3,398.0,0,ferrari,Ferrari,Italian
+2016,21,4,173.0,0,force_india,Force India,Indian
+2016,21,5,138.0,0,williams,Williams,British
+2016,21,6,76.0,0,mclaren,McLaren,British
+2016,21,7,63.0,0,toro_rosso,Toro Rosso,Italian
+2016,21,8,29.0,0,haas,Haas F1 Team,American
+2016,21,9,8.0,0,renault,Renault,French
+2016,21,10,2.0,0,sauber,Sauber,Swiss
+2016,21,11,1.0,0,manor,Manor Marussia,British
+2017,20,1,668.0,12,mercedes,Mercedes,German
+2017,20,2,522.0,5,ferrari,Ferrari,Italian
+2017,20,3,368.0,3,red_bull,Red Bull,Austrian
+2017,20,4,187.0,0,force_india,Force India,Indian
+2017,20,5,83.0,0,williams,Williams,British
+2017,20,6,57.0,0,renault,Renault,French
+2017,20,7,53.0,0,toro_rosso,Toro Rosso,Italian
+2017,20,8,47.0,0,haas,Haas F1 Team,American
+2017,20,9,30.0,0,mclaren,McLaren,British
+2017,20,10,5.0,0,sauber,Sauber,Swiss
+2018,21,1,655.0,11,mercedes,Mercedes,German
+2018,21,2,571.0,6,ferrari,Ferrari,Italian
+2018,21,3,419.0,4,red_bull,Red Bull,Austrian
+2018,21,4,122.0,0,renault,Renault,French
+2018,21,5,111.0,0,force_india,Force India,Indian
+2018,21,6,93.0,0,haas,Haas F1 Team,American
+2018,21,7,62.0,0,mclaren,McLaren,British
+2018,21,8,48.0,0,sauber,Sauber,Swiss
+2018,21,9,33.0,0,toro_rosso,Toro Rosso,Italian
+2018,21,10,7.0,0,williams,Williams,British
+2019,21,1,739.0,15,mercedes,Mercedes,German
+2019,21,2,504.0,3,ferrari,Ferrari,Italian
+2019,21,3,417.0,3,red_bull,Red Bull,Austrian
+2019,21,4,145.0,0,mclaren,McLaren,British
+2019,21,5,91.0,0,renault,Renault,French
+2019,21,6,85.0,0,toro_rosso,Toro Rosso,Italian
+2019,21,7,73.0,0,racing_point,Racing Point,British
+2019,21,8,57.0,0,alfa,Alfa Romeo,Swiss
+2019,21,9,28.0,0,haas,Haas F1 Team,American
+2019,21,10,1.0,0,williams,Williams,British
+2020,17,1,573.0,13,mercedes,Mercedes,German
+2020,17,2,319.0,2,red_bull,Red Bull,Austrian
+2020,17,3,202.0,0,mclaren,McLaren,British
+2020,17,4,195.0,1,racing_point,Racing Point,British
+2020,17,5,181.0,0,renault,Renault,French
+2020,17,6,131.0,0,ferrari,Ferrari,Italian
+2020,17,7,107.0,1,alphatauri,AlphaTauri,Italian
+2020,17,8,8.0,0,alfa,Alfa Romeo,Swiss
+2020,17,9,3.0,0,haas,Haas F1 Team,American
+2020,17,10,0.0,0,williams,Williams,British
+2021,22,1,613.5,9,mercedes,Mercedes,German
+2021,22,2,585.5,11,red_bull,Red Bull,Austrian
+2021,22,3,323.5,0,ferrari,Ferrari,Italian
+2021,22,4,275.0,1,mclaren,McLaren,British
+2021,22,5,155.0,1,alpine,Alpine F1 Team,French
+2021,22,6,142.0,0,alphatauri,AlphaTauri,Italian
+2021,22,7,77.0,0,aston_martin,Aston Martin,British
+2021,22,8,23.0,0,williams,Williams,British
+2021,22,9,13.0,0,alfa,Alfa Romeo,Swiss
+2021,22,10,0.0,0,haas,Haas F1 Team,American
+2022,22,1,759.0,17,red_bull,Red Bull,Austrian
+2022,22,2,554.0,4,ferrari,Ferrari,Italian
+2022,22,3,515.0,1,mercedes,Mercedes,German
+2022,22,4,173.0,0,alpine,Alpine F1 Team,French
+2022,22,5,159.0,0,mclaren,McLaren,British
+2022,22,6,55.0,0,alfa,Alfa Romeo,Swiss
+2022,22,7,55.0,0,aston_martin,Aston Martin,British
+2022,22,8,37.0,0,haas,Haas F1 Team,American
+2022,22,9,35.0,0,alphatauri,AlphaTauri,Italian
+2022,22,10,8.0,0,williams,Williams,British
+2023,22,1,860.0,21,red_bull,Red Bull,Austrian
+2023,22,2,409.0,0,mercedes,Mercedes,German
+2023,22,3,406.0,1,ferrari,Ferrari,Italian
+2023,22,4,302.0,0,mclaren,McLaren,British
+2023,22,5,280.0,0,aston_martin,Aston Martin,British
+2023,22,6,120.0,0,alpine,Alpine F1 Team,French
+2023,22,7,28.0,0,williams,Williams,British
+2023,22,8,25.0,0,alphatauri,AlphaTauri,Italian
+2023,22,9,16.0,0,alfa,Alfa Romeo,Swiss
+2023,22,10,12.0,0,haas,Haas F1 Team,American
+2024,24,1,666.0,6,mclaren,McLaren,British
+2024,24,2,652.0,5,ferrari,Ferrari,Italian
+2024,24,3,589.0,9,red_bull,Red Bull,Austrian
+2024,24,4,468.0,4,mercedes,Mercedes,German
+2024,24,5,94.0,0,aston_martin,Aston Martin,British
+2024,24,6,65.0,0,alpine,Alpine F1 Team,French
+2024,24,7,58.0,0,haas,Haas F1 Team,American
+2024,24,8,46.0,0,rb,RB F1 Team,Italian
+2024,24,9,17.0,0,williams,Williams,British
+2024,24,10,4.0,0,sauber,Sauber,Swiss
